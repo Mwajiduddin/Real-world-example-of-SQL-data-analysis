@@ -7,11 +7,13 @@
 <h2>Overview</h2>
 This will be a demonstration on how data is analyzed in the real world from big datasets using commands in SQL. In this example we will observe and compare data regarding apps from the Apple Store and answering relevant questions about this dataset such as:
 
-What are the best apps from each genre?
+What are the highest rated apps from each genre?
 
-Which genre of apps are highly rated?
+Which genres dominate the market?
 
 Which genres of apps are rated low?
+
+What is the range and average ratings for apps?
 
 Do paid apps have a better ratings than free apps? 
 
@@ -19,7 +21,7 @@ How many languages do the best-rated apps support?
 
 What do the best apps have: longer descriptions or shorter descriptions?
 
-What is the average ratings for newer apps?
+
 
 
 <br />
@@ -76,7 +78,7 @@ FROM (
 
 <h2 align="center">Number of apps in each genre:</h2>
 
-Based from the query results, Games, Entertainment, and Education are the genres with most number of apps.
+Based from the query results, Games, Entertainment, and Education are the most popular genres with most number of apps.
 
 <p align="center">
 <img src="https://github.com/Mwajiduddin/Real-world-example-of-SQL-data-analysis/blob/main/sql2.png" />
@@ -93,9 +95,9 @@ ORDER BY Number_of_Apps DESC
 ```
 
 
-<h2 align="center">10 lowest rated genres:</h2>
+<h2 align="center">10 of the lowest rated genres:</h2>
 
-Based from the query results, Catalogs, Finance, and Book apps aren't performing that well and this can be seen as market opportunity to create a well quality app.
+Based from the query results, Catalogs, Finance, and Book apps aren't performing that well and this can be seen as market opportunity to create a well quality app in these genres.
 
 <p align="center">
 <img src="https://github.com/Mwajiduddin/Real-world-example-of-SQL-data-analysis/blob/main/sql6.png" />
